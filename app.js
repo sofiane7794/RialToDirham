@@ -30,5 +30,6 @@ Cela fait ${answer} Dirham, soit ${answer / 10} EUR
 result.innerHTML = `
 veuillez inserer une somme a convertir !
 `
+
 }
 });
