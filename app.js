@@ -12,6 +12,11 @@ reset.addEventListener("click", () => {
   fromRial.value = "";
 });
 
-convert.addEventListener("click", () => {
-  // console.log(convert);
-});
+
+let answer = "";
+
+fromRial.addEventListener("input", (e) => {
+answer = e.target.value / 20;
+console.log(answer);
+})
+
