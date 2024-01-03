@@ -17,7 +17,7 @@ let answer = "";
 
 fromRial.addEventListener("input", (e) => {
   answer = e.target.value / 20;
-  console.log(answer);
+  // console.log(answer);
 });
 
 convert.addEventListener("click", () => {
