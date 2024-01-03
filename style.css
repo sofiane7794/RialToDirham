@@ -7,6 +7,11 @@
   list-style: none;
 }
 
+h1 {
+  font-family: 'Noto Serif HK', serif;
+}
+
+
 body {
   margin: 20px;
   padding: 5px;
@@ -14,13 +19,14 @@ body {
   background-color: #f3bea7;
 }
 
-body h1 {
-  font-family: 'Noto Serif HK', serif;
-}
 
 .title {
   margin-bottom: 25px;
   padding: 3px;
+}
+
+.title p {
+  font-family: 'Noto Serif HK', serif;
 }
 
 #convert-input {
@@ -43,6 +49,7 @@ body h1 {
   border: antiquewhite 3px solid;
   background-color: rgb(247, 212, 165);
   width: 8%;
+  margin-top: 2px;
 }
 
 button:hover {
