@@ -11,8 +11,45 @@ body {
   margin: 20px;
   padding: 5px;
   font-family: 'Poppins', sans-serif;
+  background-color: #f3bea7;
 }
 
 body h1 {
   font-family: 'Noto Serif HK', serif;
+}
+
+.title {
+  margin-bottom: 25px;
+  padding: 3px;
+}
+
+#convert-input {
+  border: antiquewhite 2px solid;
+  border-radius: 20px 0 10px 0;
+  margin: 10px 0px 40px 0;
+  padding: 10px 5px;
+  height: 100px;
+}
+
+#amount {
+  border-radius: 5px;
+  border: antiquewhite 3px solid;
+  background-color: rgb(247, 212, 165);
+  width: 20%;
+}
+
+.button {
+  border-radius: 5px;
+  border: antiquewhite 3px solid;
+  background-color: rgb(247, 212, 165);
+  width: 8%;
+}
+
+button:hover {
+  color: aliceblue;
+  transition: 0.3s;
+}
+
+#tuto-box {
+  border-top: 2px solid antiquewhite;
 }
