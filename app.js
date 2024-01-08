@@ -24,7 +24,7 @@ convert.addEventListener("click", () => {
   // console.log(convert);
   if (answer > 0) {
     result.innerHTML = `
-Cela fait ${answer} Dirham, soit ${answer / 10} EUR
+That's ${answer} Dirham, or ${answer / 10} EUR
 `;
   } else {
     result.innerHTML = `
